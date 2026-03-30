@@ -1,0 +1,23 @@
+Copyright (c) 2026 Tyler J. Wandtke
+
+All rights reserved.
+
+This software is provided for personal, educational, and non-commercial use only.
+
+Commercial use by any individual, company, organization, government entity,
+or institution requires a separate paid commercial license or written permission
+from the copyright holder.
+
+Commercial use includes but is not limited to:
+
+• selling the software
+• distributing monetized versions
+• bundling with paid services
+• internal business use
+• enterprise deployment
+• SaaS / hosted platforms
+• ad-supported redistribution
+
+To obtain a commercial license, contact: wandtket@gmail.com
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
