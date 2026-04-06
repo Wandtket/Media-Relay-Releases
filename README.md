@@ -2,7 +2,7 @@
 
 **Media Relay Client** is a display-side application for **Media Relay** — a multi-platform applijcation that lets you upload and control media playback on multiple display devices. It is intended for use in kiosks, projectors, televisions, and interactive smart displays.
 
-This Linux client runs as a display receiver, waiting for a controller device to connect and push media content to it over the local network.
+This Linux client runs as a display receiver, waiting for a controller device to connect and push media content to it over a local network, if your network does not allow UDP broadcasts you'll need to manually add the IP Address.
 
 
 
