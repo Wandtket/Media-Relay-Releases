@@ -4,7 +4,7 @@
 
 This Linux client runs as a display receiver, waiting for a controller device to connect and push media content to it over a local network, if your network does not allow UDP broadcasts you'll need to manually add the IP Address.
 
-Unlike casting, which mirrors or streams your screen and requires a constant connection, Media Relay uploads media files directly to the display device and will allow you to persist the media between system reboots so long as you set the app to startup with the device.
+Unlike casting, which mirrors/streams your screen and requires a constant connection, Media Relay uploads media files directly to the display device and will allow you to persist the media between system reboots so long as you set the app to startup with the device.
 
 ![Raspbian](https://github.com/Wandtket/Media-Relay-Releases/blob/main/Images/Raspbian.png)
 
