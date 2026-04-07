@@ -1,22 +1,31 @@
 # Media Relay Client for Linux
 
-**Media Relay Client** is a display-side application for **Media Relay** — a multi-platform applijcation that lets you upload and control media playback on multiple display devices. It is intended for use in kiosks, projectors, televisions, and interactive smart displays.
+**Media Relay Client** is the display-side for **Media Relay** — a multi-platform application that lets you upload and control media playback on multiple display devices. It is intended for use in kiosks, projectors, televisions, and interactive smart displays. 
 
 This Linux client runs as a display receiver, waiting for a controller device to connect and push media content to it over a local network, if your network does not allow UDP broadcasts you'll need to manually add the IP Address.
 
+Unlike casting, which mirrors/streams your screen and requires a constant connection, Media Relay uploads media files directly to the display device and will allow you to persist the media between system reboots so long as you set the app to startup with the device.
 
+![Raspbian](https://github.com/Wandtket/Media-Relay-Releases/blob/main/Images/Raspbian.png)
 
 ## Installation
 
 ### From a `.deb` package (Debian / Ubuntu / Raspberry Pi OS)
 
-Download the `.deb` file for your architecture and install it with `apt`:
+Download the `.deb` file for your architecture, right click and press `Package Install` or install it with `apt`:
 
 ```bash
 sudo apt install ./mediarelay-<arch>.deb
 ```
 
+
 The package is self-contained and will automatically install the required dependencies (`vlc`, `libvlc5`, `gtk-sharp2`).
+
+## Uninstall
+
+```bash
+sudo apt-get remove mediarelay
+```
 
 ### Supported Architectures
 
