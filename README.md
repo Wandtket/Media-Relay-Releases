@@ -12,11 +12,14 @@ Unlike casting, which mirrors/streams your screen and requires a constant connec
 
 ### From a `.deb` package (Debian / Ubuntu / Raspberry Pi OS)
 
-Download the `.deb` file for your architecture and install it with `apt`:
+Download the `.deb` file for your architecture, right click and press 'Package Install' 
+
+or install it with `apt`:
 
 ```bash
 sudo apt install ./mediarelay-<arch>.deb
 ```
+
 
 The package is self-contained and will automatically install the required dependencies (`vlc`, `libvlc5`, `gtk-sharp2`).
 
