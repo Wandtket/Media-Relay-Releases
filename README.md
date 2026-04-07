@@ -20,7 +20,7 @@ sudo apt install ./mediarelay-<arch>.deb
 
 The package is self-contained and will automatically install the required dependencies (`vlc`, `libvlc5`, `gtk-sharp2`).
 
-## Removal
+## Uninstall
 
 ```bash
 sudo apt-get remove mediarelay
